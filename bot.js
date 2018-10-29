@@ -1,3 +1,4 @@
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -47,11 +48,11 @@ var channel = "505108060105211937";//ايدي الروم
 
 client.on('ready', async() => {
 var server = "505108060105211928"; // ايدي السررفر
-var channel = "505108060105211937";//ايدي الروم
+var channel = "505108060105211937"; //ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('فاك فاك فاك فاك فاك فاك فاك فاك فاك رفاك فاك فاك فاك فاك فاك فاك فاك فاك فاك فاك فاك فاك فاكفاك فاك فاك فاك فاك فاك فاك فاك فاك فاك فاكفاكفاك فاك فاك')
     },1);
 })
 
 
-client.login(process.env.BOT_TOKEN);
+client.login("NTAzMjM2NTM4MjQzNDgxNjAx.Dqzj1A.u2h9SoIXUxNi-duQN-teOHYXq-E");
