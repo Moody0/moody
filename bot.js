@@ -54,4 +54,4 @@ var channel = "505108060105211937";//ايدي الروم
 })
 
 
-client.login("NTAzMjM2NTM4MjQzNDgxNjAx.Dqzj1A.u2h9SoIXUxNi-duQN-teOHYXq-E");
+client.login(process.env.BOT_TOKEN);
